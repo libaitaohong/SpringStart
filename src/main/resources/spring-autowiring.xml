@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+        default-autowire="constructor">
+
+    <!--正常应该在autoWiringService bean中设置property来对DAO进行注入，
+    但是这里使用了自动装配default-autowire="byName"，这时就不需要再手动设置注入，
+    只要在引用类中设置被引用类的set方法和属性，被引用类中不用做任何操作-->
+    <bean id="autoWiringService" class="SpringBean1.autowiring.AutoWiringService"></bean>
+
+    <bean id="autoWiringDAO" class="SpringBean1.autowiring.AutoWiringDAO"></bean>
+
+</beans>

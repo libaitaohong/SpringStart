@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-init-method="defaultInit" default-destroy-method="defaultDestroy">
+          <!--使用默认初始的bean加载与销毁方法
+        <bean id="beanLifeCycle" class="SpringBean1.bean.BeanLifeCycle"></bean>-->
+
+        <!--配置init-method初始化bean，配置destroy-method销毁bean-->
+        <bean id="beanLifeCycle" class="SpringBean1.bean.BeanLifeCycle" init-method="start" destroy-method="stop"></bean>
+
+        <!--这是继承接口实现bean的初始化和销毁-->
+        <bean id="beanLifeCycle1" class="SpringBean1.bean.BeanLifeCycle1"></bean>
+
+</beans>
