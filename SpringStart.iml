@@ -4,8 +4,17 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/spring-config.xml</file>
-          <file>file://$MODULE_DIR$/src/SpringBean1/bean/spring-beanscope.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/config.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-autowired.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-autowiring.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-aware.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-beanannotation.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-beanscope.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-config.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-lifecycle.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/spring-resource.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/SpringBean2/atImportValue_atValue/StoreConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/SpringBean2/atbean/StoreConfig.java</file>
         </fileset>
       </configuration>
     </facet>
