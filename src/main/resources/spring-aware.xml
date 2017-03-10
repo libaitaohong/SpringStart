@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-        <!--<bean id="moocApplicationContext" class="SpringBean1.Aware.MoocApplicationContext"></bean>-->
+        <!--运行两个测试函数时，分别把另一个注释掉，要不然两个类里面的输出会交叉在一起
+        <bean id="moocApplicationContext" class="SpringBean1.Aware.MoocApplicationContext"></bean>-->
         <bean id="moocBeanName" class="SpringBean1.Aware.MoocBeanName"></bean>
 </beans>
