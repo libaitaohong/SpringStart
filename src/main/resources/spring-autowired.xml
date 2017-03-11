@@ -7,6 +7,7 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 
+
     <!--处理这个包下面相关的注解-->
     <context:component-scan base-package="SpringBean2.Autowired"></context:component-scan>
     <context:component-scan base-package="SpringBean2.multibean"></context:component-scan>
