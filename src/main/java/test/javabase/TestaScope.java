@@ -27,7 +27,7 @@ public class TestaScope extends UnitTestBase{
         System.out.println(store2.hashCode());
     }
 
-    /**
+    /**Scope设置为prototype
      * 输出：
      * 1822971466
      * 1354003114
