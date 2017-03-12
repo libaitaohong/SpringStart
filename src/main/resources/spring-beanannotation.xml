@@ -8,10 +8,11 @@
        http://www.springframework.org/schema/context/spring-context.xsd">
 
         <!--处理这个包下面相关的注解-->
-        <!--<context:component-scan base-package="SpringBean2.beanAnnotation"></context:component-scan>-->
+        <!--<context:component-scan base-package="SpringBean2.beanAnnotation"></context:component-scan>
         <context:component-scan base-package="SpringBean2.atbean"></context:component-scan>
         <context:component-scan base-package="SpringBean2.atImportValue_atValue"></context:component-scan>
         <context:component-scan base-package="SpringBean2.atScope"></context:component-scan>
-        <!--<context:component-scan base-package="SpringBean2.genericity"></context:component-scan>-->
+        <context:component-scan base-package="SpringBean2.genericity"></context:component-scan>-->
+        <context:component-scan base-package="SpringBean2.jsr"></context:component-scan>
 
 </beans>
