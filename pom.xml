@@ -24,6 +24,11 @@
             <artifactId>sisu-inject-bean</artifactId>
             <version>1.4.2</version>
         </dependency>
+        <dependency>
+            <groupId> org.aspectj</groupId >
+            <artifactId> aspectjweaver</artifactId >
+            <version> 1.8.7</version >
+        </dependency>
 
     </dependencies>
     
